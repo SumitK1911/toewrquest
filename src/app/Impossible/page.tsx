@@ -84,6 +84,7 @@ const Impossible: React.FC = () => {
       {!gameOver && (
         <div>
           <h1 className="text-2xl font-bold mb-4">Game Board</h1>
+          <div>points:{points}</div>
           <div className="flex flex-col items-center">
             {[...Array(8).keys()].reverse().map(floor => (
               <div key={floor} className="w-100 h-100 border border-black mb-8 flex justify-center items-center bg-black text-white">
