@@ -92,7 +92,7 @@ const Hard: React.FC = () => {
                   <div className="flex flex-wrap">
                     {boxContent.map((content, index) => (
                       <div key={index} onClick={() => handleBoxClick(content, index)} className="w-12 h-12 border border-white bg-red-400 m-1 flex justify-center items-center cursor-pointer">
-                        {content}
+                        
                       </div>
                     ))}
                   </div>
